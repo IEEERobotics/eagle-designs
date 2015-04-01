@@ -9095,7 +9095,7 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="P+11" library="supply1" deviceset="VCC" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="Q4" library="transistor-small-signal" deviceset="BSS84" device=""/>
-<part name="C12" library="rcl" deviceset="C-US" device="C0805"/>
+<part name="C12" library="rcl" deviceset="C-US" device="C0805" value="10uF"/>
 <part name="U$3" library="ADC128D818" deviceset="ADS7830" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
@@ -9117,70 +9117,70 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="U$2" library="TIparts" deviceset="3020-16-0300-00" device=""/>
 <part name="U$5" library="TIparts" deviceset="75869-103LF" device=""/>
 <part name="U$9" library="TIparts" deviceset="75869-103LF" device=""/>
-<part name="C14" library="rcl" deviceset="C-US" device="C1206K"/>
-<part name="C15" library="rcl" deviceset="C-US" device="C1206K"/>
-<part name="C16" library="rcl" deviceset="C-US" device="C1206K"/>
+<part name="C14" library="rcl" deviceset="C-US" device="C1206K" value="10uF"/>
+<part name="C15" library="rcl" deviceset="C-US" device="C1206K" value="10uF"/>
+<part name="C16" library="rcl" deviceset="C-US" device="C1206K" value="0.1uF"/>
 <part name="U$7" library="TIparts" deviceset="3020-16-0300-00" device=""/>
-<part name="C10" library="rcl" deviceset="C-US" device="C1206K"/>
-<part name="C11" library="rcl" deviceset="C-US" device="C1206K"/>
-<part name="C13" library="rcl" deviceset="C-US" device="C1206K"/>
-<part name="C1" library="rcl" deviceset="C-US" device="C1206K"/>
-<part name="C2" library="rcl" deviceset="C-US" device="C1206K"/>
-<part name="C3" library="rcl" deviceset="C-US" device="C1206K"/>
-<part name="C4" library="rcl" deviceset="C-US" device="C1206K"/>
-<part name="C5" library="rcl" deviceset="C-US" device="C1206K"/>
-<part name="C6" library="rcl" deviceset="C-US" device="C1206K"/>
-<part name="R10" library="rcl" deviceset="R-US_" device="R1206W"/>
-<part name="R9" library="rcl" deviceset="R-US_" device="R1206W"/>
-<part name="R6" library="rcl" deviceset="R-US_" device="R1206W"/>
-<part name="R11" library="rcl" deviceset="R-US_" device="R1206W"/>
-<part name="R12" library="rcl" deviceset="R-US_" device="R1206W"/>
-<part name="R13" library="rcl" deviceset="R-US_" device="R1206W"/>
-<part name="R1" library="rcl" deviceset="R-US_" device="R1206W"/>
-<part name="R2" library="rcl" deviceset="R-US_" device="R1206W"/>
-<part name="R3" library="rcl" deviceset="R-US_" device="R1206W"/>
-<part name="R4" library="rcl" deviceset="R-US_" device="R1206W"/>
+<part name="C10" library="rcl" deviceset="C-US" device="C1206K" value="10uF"/>
+<part name="C11" library="rcl" deviceset="C-US" device="C1206K" value="0K"/>
+<part name="C13" library="rcl" deviceset="C-US" device="C1206K" value="0.1uF"/>
+<part name="C1" library="rcl" deviceset="C-US" device="C1206K" value="10uF"/>
+<part name="C2" library="rcl" deviceset="C-US" device="C1206K" value="10uF"/>
+<part name="C3" library="rcl" deviceset="C-US" device="C1206K" value="0.1uF"/>
+<part name="C4" library="rcl" deviceset="C-US" device="C1206K" value="10uF"/>
+<part name="C5" library="rcl" deviceset="C-US" device="C1206K" value="10uF"/>
+<part name="C6" library="rcl" deviceset="C-US" device="C1206K" value="0.1F"/>
+<part name="R10" library="rcl" deviceset="R-US_" device="R1206W" value="0k"/>
+<part name="R9" library="rcl" deviceset="R-US_" device="R1206W" value="0K"/>
+<part name="R6" library="rcl" deviceset="R-US_" device="R1206W" value="0K"/>
+<part name="R11" library="rcl" deviceset="R-US_" device="R1206W" value="0K"/>
+<part name="R12" library="rcl" deviceset="R-US_" device="R1206W" value="5K"/>
+<part name="R13" library="rcl" deviceset="R-US_" device="R1206W" value="5K"/>
+<part name="R1" library="rcl" deviceset="R-US_" device="R1206W" value="NC"/>
+<part name="R2" library="rcl" deviceset="R-US_" device="R1206W" value="NC"/>
+<part name="R3" library="rcl" deviceset="R-US_" device="R1206W" value="NC"/>
+<part name="R4" library="rcl" deviceset="R-US_" device="R1206W" value="NC"/>
 <part name="U$10" library="TIparts" deviceset="CAS-220TB" device=""/>
 <part name="LEFT" library="led" deviceset="LED" device="SML1206"/>
-<part name="R5" library="rcl" deviceset="R-US_" device="R1206W"/>
+<part name="R5" library="rcl" deviceset="R-US_" device="R1206W" value="10K"/>
 <part name="RIGHT" library="led" deviceset="LED" device="SML1206"/>
-<part name="R7" library="rcl" deviceset="R-US_" device="R1206W"/>
+<part name="R7" library="rcl" deviceset="R-US_" device="R1206W" value="10K"/>
 <part name="BACK" library="led" deviceset="LED" device="SML1206"/>
-<part name="R8" library="rcl" deviceset="R-US_" device="R1206W"/>
+<part name="R8" library="rcl" deviceset="R-US_" device="R1206W" value="10k"/>
 <part name="FRONT" library="led" deviceset="LED" device="SML1206"/>
-<part name="R14" library="rcl" deviceset="R-US_" device="R1206W"/>
+<part name="R14" library="rcl" deviceset="R-US_" device="R1206W" value="10k"/>
 <part name="POWER" library="led" deviceset="LED" device="SML1206"/>
-<part name="R15" library="rcl" deviceset="R-US_" device="R1206W"/>
+<part name="R15" library="rcl" deviceset="R-US_" device="R1206W" value="10k"/>
 <part name="U$11" library="TIparts" deviceset="ISL23348_SD" device=""/>
-<part name="R16" library="rcl" deviceset="R-US_" device="R1206W"/>
-<part name="R17" library="rcl" deviceset="R-US_" device="R1206W"/>
-<part name="R18" library="rcl" deviceset="R-US_" device="R1206W"/>
-<part name="R19" library="rcl" deviceset="R-US_" device="R1206W"/>
-<part name="R20" library="rcl" deviceset="R-US_" device="R1206W"/>
-<part name="R21" library="rcl" deviceset="R-US_" device="R1206W"/>
-<part name="R22" library="rcl" deviceset="R-US_" device="R1206W"/>
-<part name="R23" library="rcl" deviceset="R-US_" device="R1206W"/>
+<part name="R16" library="rcl" deviceset="R-US_" device="R1206W" value="10k"/>
+<part name="R17" library="rcl" deviceset="R-US_" device="R1206W" value="10k"/>
+<part name="R18" library="rcl" deviceset="R-US_" device="R1206W" value="10k"/>
+<part name="R19" library="rcl" deviceset="R-US_" device="R1206W" value="10k"/>
+<part name="R20" library="rcl" deviceset="R-US_" device="R1206W" value="10k"/>
+<part name="R21" library="rcl" deviceset="R-US_" device="R1206W" value="0K"/>
+<part name="R22" library="rcl" deviceset="R-US_" device="R1206W" value="0K"/>
+<part name="R23" library="rcl" deviceset="R-US_" device="R1206W" value="0K"/>
 <part name="LED6" library="led" deviceset="LED" device="SML1206"/>
 <part name="LED7" library="led" deviceset="LED" device="SML1206"/>
 <part name="LED8" library="led" deviceset="LED" device="SML1206"/>
 <part name="LED9" library="led" deviceset="LED" device="SML1206"/>
-<part name="R24" library="rcl" deviceset="R-US_" device="R1206W"/>
-<part name="R25" library="rcl" deviceset="R-US_" device="R1206W"/>
-<part name="R26" library="rcl" deviceset="R-US_" device="R1206W"/>
-<part name="R27" library="rcl" deviceset="R-US_" device="R1206W"/>
+<part name="R24" library="rcl" deviceset="R-US_" device="R1206W" value="10k"/>
+<part name="R25" library="rcl" deviceset="R-US_" device="R1206W" value="10k"/>
+<part name="R26" library="rcl" deviceset="R-US_" device="R1206W" value="0K"/>
+<part name="R27" library="rcl" deviceset="R-US_" device="R1206W" value="10k"/>
 <part name="U$12" library="TIparts" deviceset="MMPQ2907A" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
-<part name="R28" library="rcl" deviceset="R-US_" device="R1206W"/>
-<part name="R29" library="rcl" deviceset="R-US_" device="R1206W"/>
-<part name="R30" library="rcl" deviceset="R-US_" device="R1206W"/>
-<part name="R31" library="rcl" deviceset="R-US_" device="R1206W"/>
-<part name="C7" library="rcl" deviceset="C-US" device="C1206K"/>
-<part name="C8" library="rcl" deviceset="C-US" device="C1206K"/>
-<part name="C9" library="rcl" deviceset="C-US" device="C1206K"/>
-<part name="C17" library="rcl" deviceset="C-US" device="C1206K"/>
-<part name="C18" library="rcl" deviceset="C-US" device="C1206K"/>
+<part name="R28" library="rcl" deviceset="R-US_" device="R1206W" value="10k"/>
+<part name="R29" library="rcl" deviceset="R-US_" device="R1206W" value="10k"/>
+<part name="R30" library="rcl" deviceset="R-US_" device="R1206W" value="10k"/>
+<part name="R31" library="rcl" deviceset="R-US_" device="R1206W" value="10k"/>
+<part name="C7" library="rcl" deviceset="C-US" device="C1206K" value="10uF"/>
+<part name="C8" library="rcl" deviceset="C-US" device="C1206K" value="NC"/>
+<part name="C9" library="rcl" deviceset="C-US" device="C1206K" value="NC"/>
+<part name="C17" library="rcl" deviceset="C-US" device="C1206K" value="NC"/>
+<part name="C18" library="rcl" deviceset="C-US" device="C1206K" value="NC"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="J1" library="con-molex" deviceset="22-?-02" device="05-7028"/>
 <part name="J2" library="con-molex" deviceset="22-?-02" device="05-7028"/>
@@ -9189,7 +9189,7 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="J5" library="con-molex" deviceset="22-?-05" device="05-7058"/>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="C19" library="rcl" deviceset="C-US" device="C1206K"/>
+<part name="C19" library="rcl" deviceset="C-US" device="C1206K" value="10uF"/>
 </parts>
 <sheets>
 <sheet>
