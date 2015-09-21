@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9580,7 +9580,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <part name="GND27" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C1" library="3-3_fixed" deviceset="C3216X5R1A106K" device="" value=".1uF"/>
 <part name="P+18" library="supply1" deviceset="+5V" device=""/>
-<part name="R1" library="rcl" deviceset="R-US_" device="R1206"/>
+<part name="R1" library="rcl" deviceset="R-US_" device="R1206" value="0 ohm"/>
 <part name="FRAME2" library="frames" deviceset="DINA5_L" device=""/>
 <part name="U$2" library="5v" deviceset="TPS5450DDAR" device=""/>
 <part name="D2" library="5v" deviceset="PDS760-13" device=""/>
