@@ -2600,11 +2600,11 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="67.183" y="44.704" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="81.5071" y="53.8211" size="1.016" layer="25" ratio="10" rot="R270"/>
 </element>
-<element name="C21" library="rcl" package="C0603" value="" x="22.352" y="31.496" smashed="yes" rot="MR0">
+<element name="C21" library="rcl" package="C0603" value="0.1uF" x="22.352" y="31.496" smashed="yes" rot="MR0">
 <attribute name="NAME" x="23.241" y="32.131" size="0.8128" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="22.987" y="29.591" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="C22" library="rcl" package="C0603" value="" x="22.352" y="35.306" smashed="yes" rot="MR0">
+<element name="C22" library="rcl" package="C0603" value="1uF" x="22.352" y="35.306" smashed="yes" rot="MR0">
 <attribute name="NAME" x="23.749" y="35.941" size="0.8128" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="22.987" y="33.401" size="1.27" layer="28" rot="MR0"/>
 </element>
@@ -2626,7 +2626,7 @@ design rules under a new name.</description>
 <element name="IC2" library="v-reg" package="SOT25" value="TS5205" x="22.225" y="28.575" smashed="yes" rot="MR0">
 <attribute name="NAME" x="24.765" y="29.337" size="0.8128" layer="26" rot="MR270"/>
 </element>
-<element name="C23" library="rcl" package="C0603" value="" x="22.352" y="24.511" smashed="yes" rot="MR0">
+<element name="C23" library="rcl" package="C0603" value="1uF" x="22.352" y="24.511" smashed="yes" rot="MR0">
 <attribute name="NAME" x="23.368" y="22.987" size="0.8128" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="22.987" y="22.606" size="1.27" layer="28" rot="MR0"/>
 </element>

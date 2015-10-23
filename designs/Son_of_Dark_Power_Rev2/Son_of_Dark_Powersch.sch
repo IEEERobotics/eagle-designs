@@ -9679,8 +9679,8 @@ by exp-lbrs.ulp</description>
 <part name="J7" library="con-molex" deviceset="22-?-02" device="05-7028"/>
 <part name="J8" library="con-molex" deviceset="22-?-02" device="05-7028"/>
 <part name="J9" library="con-molex" deviceset="22-?-02" device="05-7028"/>
-<part name="C21" library="rcl" deviceset="C-US" device="C0603"/>
-<part name="C22" library="rcl" deviceset="C-US" device="C0603"/>
+<part name="C21" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C22" library="rcl" deviceset="C-US" device="C0603" value="1uF"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="R16" library="rcl" deviceset="R-US_" device="R0603" value="1.24k"/>
 <part name="R17" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
@@ -9692,7 +9692,7 @@ by exp-lbrs.ulp</description>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="IC2" library="v-reg" deviceset="TS5205" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C23" library="rcl" deviceset="C-US" device="C0603"/>
+<part name="C23" library="rcl" deviceset="C-US" device="C0603" value="1uF"/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
