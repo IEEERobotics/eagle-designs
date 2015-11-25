@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -17230,6 +17230,9 @@ by exp-lbrs.ulp</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="202,5,127,33.02,IC2,CB,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
