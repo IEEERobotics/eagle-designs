@@ -12660,7 +12660,7 @@ W = angled&lt;p&gt;
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.2032" drill="0.508">
+<class number="0" name="default" width="0.2032" drill="0.3302">
 <clearance class="0" value="0.254"/>
 </class>
 </classes>
@@ -13006,7 +13006,7 @@ W = angled&lt;p&gt;
 <label x="78.74" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+5V" class="0">
+<net name="VOUT1" class="0">
 <segment>
 <pinref part="R32" gate="G$1" pin="2"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
@@ -14229,30 +14229,20 @@ W = angled&lt;p&gt;
 <wire x1="58.42" y1="124.46" x2="58.42" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="231.14" y1="111.76" x2="231.14" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="SERVO_7" gate="-2" pin="S"/>
-<wire x1="238.76" y1="93.98" x2="231.14" y2="93.98" width="0.1524" layer="91"/>
-<label x="233.68" y="109.22" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VOUT3" class="0">
-<segment>
 <wire x1="139.7" y1="142.24" x2="139.7" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="SERVO_4" gate="-2" pin="S"/>
 <wire x1="147.32" y1="124.46" x2="139.7" y2="124.46" width="0.1524" layer="91"/>
 <junction x="139.7" y="124.46"/>
 <label x="142.24" y="139.7" size="1.778" layer="95"/>
-<pinref part="SERVO_6" gate="-2" pin="S"/>
-<wire x1="147.32" y1="53.34" x2="139.7" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="124.46" x2="139.7" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="88.9" x2="139.7" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="SERVO_5" gate="-2" pin="S"/>
 <wire x1="147.32" y1="88.9" x2="139.7" y2="88.9" width="0.1524" layer="91"/>
-<junction x="139.7" y="88.9"/>
 <pinref part="C28" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="124.46" x2="127" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="127" y1="124.46" x2="127" y2="116.84" width="0.1524" layer="91"/>
 </segment>
+</net>
+<net name="VOUT3" class="0">
 <segment>
 <wire x1="193.04" y1="142.24" x2="193.04" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="SERVO_9" gate="-2" pin="S"/>
@@ -14262,13 +14252,25 @@ W = angled&lt;p&gt;
 <pinref part="SERVO_10" gate="-2" pin="S"/>
 <wire x1="200.66" y1="53.34" x2="193.04" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="124.46" x2="193.04" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="88.9" x2="193.04" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="88.9" x2="193.04" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="SERVO_8" gate="-2" pin="S"/>
+<wire x1="193.04" y1="68.58" x2="193.04" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="88.9" x2="193.04" y2="88.9" width="0.1524" layer="91"/>
 <junction x="193.04" y="88.9"/>
 <pinref part="C33" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="124.46" x2="180.34" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="124.46" x2="180.34" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="SERVO_6" gate="-2" pin="S"/>
+<wire x1="147.32" y1="53.34" x2="139.7" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="53.34" x2="139.7" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="68.58" x2="193.04" y2="68.58" width="0.1524" layer="91"/>
+<junction x="193.04" y="68.58"/>
+</segment>
+<segment>
+<wire x1="231.14" y1="111.76" x2="231.14" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="SERVO_7" gate="-2" pin="S"/>
+<wire x1="238.76" y1="93.98" x2="231.14" y2="93.98" width="0.1524" layer="91"/>
+<label x="233.68" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
