@@ -25299,7 +25299,7 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="GND2" library="Son_of_Dark_Powersch" deviceset="GND" device=""/>
 <part name="GND3" library="Son_of_Dark_Powersch" deviceset="GND" device=""/>
 <part name="FRAME2" library="frames" deviceset="DINA5_L" device="" value="Microcontroller"/>
-<part name="R13" library="rcl" deviceset="R-US_" device="R0402" value="470"/>
+<part name="R13" library="rcl" deviceset="R-US_" device="R0402" value="100"/>
 <part name="R14" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="C21" library="rcl" deviceset="C-US" device="C0402" value=".1uF"/>
 <part name="FRAME4" library="frames" deviceset="A4L-LOC" device=""/>
@@ -25319,8 +25319,8 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="U$5" library="Parts4Class" deviceset="MC32882_SW" device="" value="Switch3"/>
 <part name="U$6" library="Parts4Class" deviceset="MC32882_SW" device="" value="Switch1"/>
 <part name="U$7" library="Parts4Class" deviceset="MC32882_SW" device="" value="Switch2"/>
-<part name="R19" library="rcl" deviceset="R-US_" device="R0402" value="4.7k"/>
-<part name="R20" library="rcl" deviceset="R-US_" device="R0402" value="4.7k"/>
+<part name="R19" library="rcl" deviceset="R-US_" device="R0402" value="10K"/>
+<part name="R20" library="rcl" deviceset="R-US_" device="R0402" value="10K"/>
 <part name="LED5" library="led" deviceset="LED" device="CHIP-LED0603"/>
 <part name="LED6" library="led" deviceset="LED" device="CHIP-LED0603"/>
 <part name="LED7" library="led" deviceset="LED" device="CHIP-LED0603"/>
@@ -25328,11 +25328,11 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="C26" library="rcl" deviceset="C-US" device="C0402" value=".1uF"/>
 <part name="LED8" library="led" deviceset="LED" device="CHIP-LED0603"/>
 <part name="LED9" library="led" deviceset="LED" device="CHIP-LED0603"/>
-<part name="R21" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R22" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R23" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R24" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R25" library="rcl" deviceset="R-US_" device="R0402"/>
+<part name="R21" library="rcl" deviceset="R-US_" device="R0402" value="330"/>
+<part name="R22" library="rcl" deviceset="R-US_" device="R0402" value="330"/>
+<part name="R23" library="rcl" deviceset="R-US_" device="R0402" value="330"/>
+<part name="R24" library="rcl" deviceset="R-US_" device="R0402" value="330"/>
+<part name="R25" library="rcl" deviceset="R-US_" device="R0402" value="330"/>
 <part name="C27" library="rcl" deviceset="C-US" device="C0805" value="10uF"/>
 <part name="C28" library="rcl" deviceset="C-US" device="C0805" value="10uF"/>
 <part name="H1" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.0"/>
@@ -25414,8 +25414,8 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="GND4" library="Son_of_Dark_Powersch" deviceset="GND" device=""/>
 <part name="3.3V1" library="Son_of_Dark_Powersch" deviceset="22-?-02" device="05-7028" value=""/>
 <part name="3.3V(2)1" library="Son_of_Dark_Powersch" deviceset="22-?-02" device="05-7028" value=""/>
-<part name="R10" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R11" library="rcl" deviceset="R-US_" device="R0402"/>
+<part name="R10" library="rcl" deviceset="R-US_" device="R0402" value="10K"/>
+<part name="R11" library="rcl" deviceset="R-US_" device="R0402" value="10K"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME7" library="frames" deviceset="FRAME_A_L" device=""/>
@@ -25576,12 +25576,14 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="LED18" library="led" deviceset="LED" device="CHIP-LED0603"/>
 <part name="LED19" library="led" deviceset="LED" device="CHIP-LED0603"/>
 <part name="LED20" library="led" deviceset="LED" device="CHIP-LED0603"/>
-<part name="R67" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R68" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R69" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R70" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R71" library="rcl" deviceset="R-US_" device="R0402"/>
+<part name="R67" library="rcl" deviceset="R-US_" device="R0402" value="1K"/>
+<part name="R68" library="rcl" deviceset="R-US_" device="R0402" value="1K"/>
+<part name="R69" library="rcl" deviceset="R-US_" device="R0402" value="1K"/>
+<part name="R70" library="rcl" deviceset="R-US_" device="R0402" value="1K"/>
+<part name="R71" library="rcl" deviceset="R-US_" device="R0402" value="1K"/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
+<part name="MOTIN5" library="Son_of_Dark_Power" deviceset="22-?-04" device="05-7048"/>
+<part name="C71" library="rcl" deviceset="C-US" device="C0402" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -28762,7 +28764,7 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <instance part="GND22" gate="1" x="309.88" y="129.54" rot="R180"/>
 <instance part="GND23" gate="1" x="474.98" y="78.74" rot="R90"/>
 <instance part="GND24" gate="1" x="411.48" y="50.8" rot="R90"/>
-<instance part="+3V7" gate="G$1" x="373.38" y="43.18" rot="R90"/>
+<instance part="+3V7" gate="G$1" x="358.14" y="43.18" rot="R90"/>
 <instance part="+3V8" gate="G$1" x="309.88" y="99.06" rot="R180"/>
 <instance part="+3V9" gate="G$1" x="477.52" y="66.04" rot="R270"/>
 <instance part="C55" gate="G$1" x="469.9" y="71.12" rot="R180"/>
@@ -28812,6 +28814,11 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <instance part="+3V10" gate="G$1" x="513.08" y="121.92"/>
 <instance part="+3V11" gate="G$1" x="551.18" y="121.92"/>
 <instance part="GND28" gate="1" x="508" y="76.2"/>
+<instance part="MOTIN5" gate="-1" x="332.74" y="5.08"/>
+<instance part="MOTIN5" gate="-2" x="332.74" y="0"/>
+<instance part="MOTIN5" gate="-3" x="332.74" y="-5.08"/>
+<instance part="MOTIN5" gate="-4" x="332.74" y="-10.16"/>
+<instance part="C71" gate="G$1" x="396.24" y="35.56" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -29028,9 +29035,18 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <pinref part="C57" gate="G$1" pin="2"/>
 <wire x1="406.4" y1="50.8" x2="408.94" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="401.32" y1="43.18" x2="406.4" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="406.4" y1="43.18" x2="406.4" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="43.18" x2="406.4" y2="48.26" width="0.1524" layer="91"/>
 <junction x="406.4" y="50.8"/>
 <pinref part="IC4" gate="G$1" pin="VSS@2"/>
+<pinref part="C71" gate="G$1" pin="2"/>
+<wire x1="406.4" y1="48.26" x2="406.4" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="35.56" x2="406.4" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="35.56" x2="406.4" y2="43.18" width="0.1524" layer="91"/>
+<junction x="406.4" y="43.18"/>
+<pinref part="IC4" gate="G$1" pin="AVSS"/>
+<wire x1="373.38" y1="76.2" x2="373.38" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="48.26" x2="406.4" y2="48.26" width="0.1524" layer="91"/>
+<junction x="406.4" y="48.26"/>
 </segment>
 <segment>
 <pinref part="MOTIN1" gate="-1" pin="S"/>
@@ -29107,16 +29123,33 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <wire x1="584.2" y1="45.72" x2="591.82" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="GND27" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="MOTIN5" gate="-4" pin="S"/>
+<wire x1="330.2" y1="-10.16" x2="320.04" y2="-10.16" width="0.1524" layer="91"/>
+<label x="320.04" y="-10.16" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="MOTIN5" gate="-1" pin="S"/>
+<wire x1="330.2" y1="5.08" x2="320.04" y2="5.08" width="0.1524" layer="91"/>
+<label x="320.04" y="5.08" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
-<wire x1="375.92" y1="43.18" x2="388.62" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="43.18" x2="370.84" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="43.18" x2="388.62" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="388.62" y1="43.18" x2="388.62" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="C57" gate="G$1" pin="1"/>
 <wire x1="393.7" y1="43.18" x2="388.62" y2="43.18" width="0.1524" layer="91"/>
 <junction x="388.62" y="43.18"/>
 <pinref part="IC4" gate="G$1" pin="VDD@2"/>
+<pinref part="C71" gate="G$1" pin="1"/>
+<wire x1="393.7" y1="35.56" x2="388.62" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="35.56" x2="388.62" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="G$1" pin="AVDD"/>
+<wire x1="370.84" y1="76.2" x2="370.84" y2="43.18" width="0.1524" layer="91"/>
+<junction x="370.84" y="43.18"/>
 </segment>
 <segment>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
@@ -29201,6 +29234,16 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <wire x1="505.46" y1="27.94" x2="477.52" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="477.52" y1="27.94" x2="477.52" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="SUPPLY9" gate="G$1" pin="+7V"/>
+</segment>
+<segment>
+<pinref part="MOTIN5" gate="-2" pin="S"/>
+<wire x1="330.2" y1="0" x2="320.04" y2="0" width="0.1524" layer="91"/>
+<label x="320.04" y="0" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="MOTIN5" gate="-3" pin="S"/>
+<wire x1="330.2" y1="-5.08" x2="320.04" y2="-5.08" width="0.1524" layer="91"/>
+<label x="320.04" y="-5.08" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="CHANNEL_A_1" class="0">
