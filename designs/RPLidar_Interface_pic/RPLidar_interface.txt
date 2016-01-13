@@ -1,0 +1,78 @@
+Partlist exported from C:/Users/jaste_000/Documents/eagle/eagle_link/PCB_Designs/RPLidar_Interface_pic/RPLidar_interface.sch at 10/31/2015 10:14 PM
+
+Part      Value                  Device                 Package                Description                                       
+3.3V                             LEDCHIP-LED0603        CHIP-LED0603           LED                                               
+5V                               LEDCHIP-LED0603        CHIP-LED0603           LED                                               
+C1        .1uF                   C-EUC0402              C0402                  CAPACITOR, European symbol                        
+C2        .1uF                   C-EUC0402              C0402                  CAPACITOR, European symbol                        
+C3        0.1uF                  C-EUC0402              C0402                  CAPACITOR, European symbol                        
+C4        .1uF                   C-EUC0402              C0402                  CAPACITOR, European symbol                        
+C5        1uF                    C-EUC0402              C0402                  CAPACITOR, European symbol                        
+C6        0.1uF                  C-EUC0402              C0402                  CAPACITOR, European symbol                        
+C7        .1uF                   C-EUC0402              C0402                  CAPACITOR, European symbol                        
+C8        1uF                    C-EUC0402              C0402                  CAPACITOR, European symbol                        
+C9        0.1uF                  C-EUC0402              C0402                  CAPACITOR, European symbol                        
+C10       0.1uF                  C-EUC0402              C0402                  CAPACITOR, European symbol                        
+C11       .01uF                  C-EUC0402              C0402                  CAPACITOR, European symbol                        
+C12       5uF                    C-EUC0402              C0402                  CAPACITOR, European symbol                        
+C13       10uF                   C-EUC0402              C0402                  CAPACITOR, European symbol                        
+C14       1uF                    C-EUC0402              C0402                  CAPACITOR, European symbol                        
+C15       0.1uF                  C-EUC0402              C0402                  CAPACITOR, European symbol                        
+C16       .01uF                  C-EUC0402              C0402                  CAPACITOR, European symbol                        
+C17       .1uF                   C-EUC0402              C0402                  CAPACITOR, European symbol                        
+C18       .1uF                   C-EUC0402              C0402                  CAPACITOR, European symbol                        
+C100      0.1uF                  C-EUC0402              C0402                  CAPACITOR, European symbol                        
+C101      0.1uF                  C-EUC0402              C0402                  CAPACITOR, European symbol                        
+C102      5uF                    C-EUC0402              C0402                  CAPACITOR, European symbol                        
+C103      5uF                    C-EUC0402              C0402                  CAPACITOR, European symbol                        
+C104      5uF                    C-EUC0402              C0402                  CAPACITOR, European symbol                        
+IC1       TS5205                 TS5205                 SOT25                  150mA Low Noise LDO Voltage Regulator with Enable 
+J1        PIN-CONNECTOR74089     PIN-CONNECTOR74089     10-PIN-SMD                                                               
+J2        PIN-CONNECTOR74089     PIN-CONNECTOR74089     10-PIN-SMD                                                               
+J3        PIN-CONNECTOR74089     PIN-CONNECTOR74089     10-PIN-SMD                                                               
+J4        22-05-7028-02          22-05-7028-02          7395-02                CONNECTOR                                         
+J5        PIN-CONNECTOR74089     PIN-CONNECTOR74089     10-PIN-SMD                                                               
+R1        300                    R-US_R0402             R0402                  RESISTOR, American symbol                         
+R2        330                    R-US_R0402             R0402                  RESISTOR, American symbol                         
+R3        100                    R-US_R0402             R0402                  RESISTOR, American symbol                         
+R4        10k                    R-US_R0402             R0402                  RESISTOR, American symbol                         
+R5        0                      R-US_R0402             R0402                  RESISTOR, American symbol                         
+R6        10k                    R-US_R0402             R0402                  RESISTOR, American symbol                         
+R7        0                      R-US_R0402             R0402                  RESISTOR, American symbol                         
+R8        500                    R-US_R0402             R0402                  RESISTOR, American symbol                         
+R9        500                    R-US_R0402             R0402                  RESISTOR, American symbol                         
+R10       10k                    R-US_R0402             R0402                  RESISTOR, American symbol                         
+R11       100                    R-US_R0402             R0402                  RESISTOR, American symbol                         
+R12       100                    R-US_R0402             R0402                  RESISTOR, American symbol                         
+R13       0                      R-US_R0402             R0402                  RESISTOR, American symbol                         
+R14       100                    R-US_R0402             R0402                  RESISTOR, American symbol                         
+R15       1K                     R-US_R0402             R0402                  RESISTOR, American symbol                         
+R16       1K                     R-US_R0402             R0402                  RESISTOR, American symbol                         
+R17       330                    R-US_R0402             R0402                  RESISTOR, American symbol                         
+R18       330                    R-US_R0402             R0402                  RESISTOR, American symbol                         
+R19       10k                    R-US_R0402             R0402                  RESISTOR, American symbol                         
+R100      0                      R-US_R0402             R0402                  RESISTOR, American symbol                         
+R101      0                      R-US_R0402             R0402                  RESISTOR, American symbol                         
+R102      0                      R-US_R0402             R0402                  RESISTOR, American symbol                         
+SV1                              MA04-1                 MA04-1                 PIN HEADER                                        
+SV2                              MA04-1                 MA04-1                 PIN HEADER                                        
+SV3                              MA04-1                 MA04-1                 PIN HEADER                                        
+SV4                              MA04-1                 MA04-1                 PIN HEADER                                        
+SV5                              MA04-1                 MA04-1                 PIN HEADER                                        
+SV6                              MA04-1                 MA04-1                 PIN HEADER                                        
+SV7                              MA04-1                 MA04-1                 PIN HEADER                                        
+SV8                              MA04-1                 MA04-1                 PIN HEADER                                        
+SV9                              MA04-1                 MA04-1                 PIN HEADER                                        
+SV10                             MA04-1                 MA04-1                 PIN HEADER                                        
+U$1       PIC16F73-I/ML          PIC16F73-I/ML          QFN65P600X600X100-28N  8-bit CMOS FLASH Microcontrollers                 
+U$2       PIC16F73-I/ML          PIC16F73-I/ML          QFN65P600X600X100-28N  8-bit CMOS FLASH Microcontrollers                 
+U$3       BEAGLE_BONE_BLACK_CAPE BEAGLE_BONE_BLACK_CAPE BEAGLE_BONE_BLACK_CAPE                                                   
+U1        PIC24FJ32GB002-I/ML    PIC24FJ32GB002-I/ML    QFN65P600X600X100-29N  IC MCU 16BIT 32KB FLASH,QFN-28                    
+U2        PIC24FJ32GB002-I/ML    PIC24FJ32GB002-I/ML    QFN65P600X600X100-29N  IC MCU 16BIT 32KB FLASH,QFN-28                    
+USER_LED1                        LEDCHIP-LED0603        CHIP-LED0603           LED                                               
+USER_LED2                        LEDCHIP-LED0603        CHIP-LED0603           LED                                               
+USER_LED3                        LEDCHIP-LED0603        CHIP-LED0603           LED                                               
+USER_LED4                        LEDCHIP-LED0603        CHIP-LED0603           LED                                               
+USER_LED5                        LEDCHIP-LED0603        CHIP-LED0603           LED                                               
+USER_LED6                        LEDCHIP-LED0603        CHIP-LED0603           LED                                               
+X1        22-23-2071             22-23-2071             22-23-2071             .100" (2.54mm) Center Header - 7 Pin              
