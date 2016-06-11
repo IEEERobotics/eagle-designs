@@ -1693,159 +1693,159 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="X1" library="Pi3_Power_hat_Rev1" package="RASPI_BOARD_B+_EDGES_4DRILL_PAD" value="RASPI_BOARD_B+#_E4P" x="-0.0254" y="0.1016" smashed="yes"/>
-<element name="C1" library="rcl" package="C0402" value="" x="13.1826" y="7.2136" smashed="yes">
+<element name="C1" library="rcl" package="C0402" value=".1uF" x="13.1826" y="7.2136" smashed="yes">
 <attribute name="NAME" x="12.5476" y="7.8486" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="12.5476" y="5.3086" size="1.27" layer="27"/>
 </element>
-<element name="C2" library="rcl" package="C0402" value="" x="6.7056" y="10.8966" smashed="yes">
+<element name="C2" library="rcl" package="C0402" value="4.7pF" x="6.7056" y="10.8966" smashed="yes">
 <attribute name="NAME" x="6.3246" y="9.4742" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="6.0706" y="8.9916" size="1.27" layer="27"/>
 </element>
-<element name="C3" library="rcl" package="C0402" value="" x="12.5476" y="17.8816" smashed="yes">
+<element name="C3" library="rcl" package="C0402" value="1uF" x="12.5476" y="17.8816" smashed="yes">
 <attribute name="NAME" x="14.6812" y="17.6784" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="11.9126" y="15.9766" size="1.27" layer="27"/>
 </element>
-<element name="C4" library="rcl" package="C1210" value="" x="20.5486" y="18.3896" smashed="yes" rot="R180">
+<element name="C4" library="rcl" package="C1210" value="47uF" x="20.5486" y="18.3896" smashed="yes" rot="R180">
 <attribute name="NAME" x="21.1836" y="21.082" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="22.4536" y="21.5646" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C5" library="rcl" package="C0402" value="" x="10.2616" y="8.9916" smashed="yes" rot="R270">
+<element name="C5" library="rcl" package="C0402" value="1uF" x="10.2616" y="8.9916" smashed="yes" rot="R270">
 <attribute name="NAME" x="10.8966" y="9.6266" size="0.8128" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="8.3566" y="9.6266" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C6" library="rcl" package="C0402" value="" x="8.7376" y="19.1516" smashed="yes" rot="R90">
+<element name="C6" library="rcl" package="C0402" value="10nF" x="8.7376" y="19.1516" smashed="yes" rot="R90">
 <attribute name="NAME" x="8.1026" y="18.5166" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="10.6426" y="18.5166" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C7" library="rcl" package="C0402" value="" x="12.5476" y="10.3886" smashed="yes">
+<element name="C7" library="rcl" package="C0402" value="1uF" x="12.5476" y="10.3886" smashed="yes">
 <attribute name="NAME" x="11.9126" y="11.0236" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="11.9126" y="8.4836" size="1.27" layer="27"/>
 </element>
-<element name="C8" library="rcl" package="C0603" value="" x="12.6746" y="19.6596" smashed="yes">
+<element name="C8" library="rcl" package="C0603" value="4.7uF" x="12.6746" y="19.6596" smashed="yes">
 <attribute name="NAME" x="14.6812" y="19.5326" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="12.0396" y="17.7546" size="1.27" layer="27"/>
 </element>
-<element name="L1" library="Pi3_motor_hat_rev1" package="IHLP2525EZER4R7M01-FOOT" value="" x="19.6596" y="12.6746" smashed="yes"/>
-<element name="R1" library="rcl" package="R0402" value="" x="6.7056" y="12.4206" smashed="yes" rot="R180">
+<element name="L1" library="Pi3_motor_hat_rev1" package="IHLP2525EZER4R7M01-FOOT" value="4.7uH" x="19.6596" y="12.6746" smashed="yes"/>
+<element name="R1" library="rcl" package="R0402" value="1M" x="6.7056" y="12.4206" smashed="yes" rot="R180">
 <attribute name="NAME" x="4.6482" y="12.7508" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="7.3406" y="14.3256" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R2" library="rcl" package="R0402" value="" x="8.7376" y="8.9916" smashed="yes" rot="R90">
+<element name="R2" library="rcl" package="R0402" value="88.7k" x="8.7376" y="8.9916" smashed="yes" rot="R90">
 <attribute name="NAME" x="8.1788" y="8.0518" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="10.6426" y="8.3566" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R3" library="rcl" package="R0402" value="" x="10.2616" y="19.1516" smashed="yes" rot="R90">
+<element name="R3" library="rcl" package="R0402" value="41.2K" x="10.2616" y="19.1516" smashed="yes" rot="R90">
 <attribute name="NAME" x="10.7188" y="20.9042" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="12.1666" y="18.5166" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="U$1" library="Pi3_motor_hat_rev1" package="LT8640_FOOT" value="LT8640" x="11.4046" y="14.0716" smashed="yes" rot="R180">
 <attribute name="NAME" x="13.97" y="15.24" size="0.8128" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="R4" library="rcl" package="R0402" value="" x="6.7056" y="13.8176" smashed="yes" rot="R180">
+<element name="R4" library="rcl" package="R0402" value="10k" x="6.7056" y="13.8176" smashed="yes" rot="R180">
 <attribute name="NAME" x="5.461" y="15.1638" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="7.3406" y="15.7226" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C9" library="rcl" package="C0402" value="" x="30.9626" y="24.9936" smashed="yes">
+<element name="C9" library="rcl" package="C0402" value=".1uF" x="30.9626" y="24.9936" smashed="yes">
 <attribute name="NAME" x="30.3276" y="25.6286" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="30.3276" y="23.0886" size="1.27" layer="27"/>
 </element>
-<element name="C10" library="rcl" package="C0402" value="" x="24.4856" y="28.6766" smashed="yes">
+<element name="C10" library="rcl" package="C0402" value="4.7pF" x="24.4856" y="28.6766" smashed="yes">
 <attribute name="NAME" x="21.0566" y="28.5242" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="23.8506" y="26.7716" size="1.27" layer="27"/>
 </element>
-<element name="C11" library="rcl" package="C0402" value="" x="30.3276" y="35.6616" smashed="yes">
+<element name="C11" library="rcl" package="C0402" value="1uF" x="30.3276" y="35.6616" smashed="yes">
 <attribute name="NAME" x="32.4866" y="35.4838" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="29.6926" y="33.7566" size="1.27" layer="27"/>
 </element>
-<element name="C12" library="rcl" package="C1210" value="" x="38.3286" y="36.1696" smashed="yes" rot="R180">
+<element name="C12" library="rcl" package="C1210" value="47uF" x="38.3286" y="36.1696" smashed="yes" rot="R180">
 <attribute name="NAME" x="39.3954" y="39.0906" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="40.2336" y="39.3446" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C13" library="rcl" package="C0402" value="" x="28.0416" y="26.7716" smashed="yes" rot="R270">
+<element name="C13" library="rcl" package="C0402" value="1uF" x="28.0416" y="26.7716" smashed="yes" rot="R270">
 <attribute name="NAME" x="28.6766" y="27.4066" size="0.8128" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="26.1366" y="27.4066" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C14" library="rcl" package="C0402" value="" x="26.5176" y="36.9316" smashed="yes" rot="R90">
+<element name="C14" library="rcl" package="C0402" value="10nF" x="26.5176" y="36.9316" smashed="yes" rot="R90">
 <attribute name="NAME" x="25.8826" y="36.2966" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="28.4226" y="36.2966" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C15" library="rcl" package="C0402" value="" x="30.3276" y="28.1686" smashed="yes">
+<element name="C15" library="rcl" package="C0402" value="1uF" x="30.3276" y="28.1686" smashed="yes">
 <attribute name="NAME" x="29.6926" y="28.8036" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="29.6926" y="26.2636" size="1.27" layer="27"/>
 </element>
-<element name="C16" library="rcl" package="C0603" value="" x="30.4546" y="37.4396" smashed="yes">
+<element name="C16" library="rcl" package="C0603" value="4.7uF" x="30.4546" y="37.4396" smashed="yes">
 <attribute name="NAME" x="32.4612" y="37.2364" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="29.8196" y="35.5346" size="1.27" layer="27"/>
 </element>
-<element name="L2" library="Pi3_motor_hat_rev1" package="IHLP2525EZER4R7M01-FOOT" value="" x="37.4396" y="30.4546" smashed="yes"/>
-<element name="R5" library="rcl" package="R0402" value="" x="24.4856" y="30.2006" smashed="yes" rot="R180">
+<element name="L2" library="Pi3_motor_hat_rev1" package="IHLP2525EZER4R7M01-FOOT" value="1.5uH" x="37.4396" y="30.4546" smashed="yes"/>
+<element name="R5" library="rcl" package="R0402" value="1M" x="24.4856" y="30.2006" smashed="yes" rot="R180">
 <attribute name="NAME" x="23.1648" y="31.2674" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="25.1206" y="32.1056" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R6" library="rcl" package="R0402" value="" x="26.5176" y="26.7716" smashed="yes" rot="R90">
+<element name="R6" library="rcl" package="R0402" value="200k" x="26.5176" y="26.7716" smashed="yes" rot="R90">
 <attribute name="NAME" x="25.8826" y="26.1366" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="28.4226" y="26.1366" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R7" library="rcl" package="R0402" value="" x="28.0416" y="36.9316" smashed="yes" rot="R90">
+<element name="R7" library="rcl" package="R0402" value="18.2k" x="28.0416" y="36.9316" smashed="yes" rot="R90">
 <attribute name="NAME" x="28.4226" y="38.2778" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="29.9466" y="36.2966" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="U$2" library="Pi3_motor_hat_rev1" package="LT8640_FOOT" value="LT8640" x="29.1846" y="31.8516" smashed="yes" rot="R180">
 <attribute name="NAME" x="31.5214" y="32.9946" size="0.8128" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="R8" library="rcl" package="R0402" value="" x="24.4856" y="31.5976" smashed="yes" rot="R180">
+<element name="R8" library="rcl" package="R0402" value="10k" x="24.4856" y="31.5976" smashed="yes" rot="R180">
 <attribute name="NAME" x="25.0952" y="32.9438" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="25.1206" y="33.5026" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C17" library="rcl" package="C0402" value="" x="52.5526" y="24.9936" smashed="yes">
+<element name="C17" library="rcl" package="C0402" value=".1uF" x="52.5526" y="24.9936" smashed="yes">
 <attribute name="NAME" x="51.9176" y="25.6286" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="51.9176" y="23.0886" size="1.27" layer="27"/>
 </element>
-<element name="C18" library="rcl" package="C0402" value="" x="46.0756" y="28.6766" smashed="yes">
+<element name="C18" library="rcl" package="C0402" value="4.7pF" x="46.0756" y="28.6766" smashed="yes">
 <attribute name="NAME" x="42.3672" y="28.575" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="45.4406" y="26.7716" size="1.27" layer="27"/>
 </element>
-<element name="C19" library="rcl" package="C0402" value="" x="51.9176" y="35.6616" smashed="yes">
+<element name="C19" library="rcl" package="C0402" value="1uF" x="51.9176" y="35.6616" smashed="yes">
 <attribute name="NAME" x="54.2544" y="35.433" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="51.2826" y="33.7566" size="1.27" layer="27"/>
 </element>
-<element name="C20" library="rcl" package="C1210" value="" x="59.9186" y="36.1696" smashed="yes" rot="R180">
+<element name="C20" library="rcl" package="C1210" value="47uF" x="59.9186" y="36.1696" smashed="yes" rot="R180">
 <attribute name="NAME" x="61.8236" y="34.2646" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="61.8236" y="39.3446" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C21" library="rcl" package="C0402" value="" x="49.6316" y="26.7716" smashed="yes" rot="R270">
+<element name="C21" library="rcl" package="C0402" value="1uF" x="49.6316" y="26.7716" smashed="yes" rot="R270">
 <attribute name="NAME" x="50.2666" y="27.4066" size="0.8128" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="47.7266" y="27.4066" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C22" library="rcl" package="C0402" value="" x="48.1076" y="36.9316" smashed="yes" rot="R90">
+<element name="C22" library="rcl" package="C0402" value="10nF" x="48.1076" y="36.9316" smashed="yes" rot="R90">
 <attribute name="NAME" x="47.4726" y="36.2966" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="50.0126" y="36.2966" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C23" library="rcl" package="C0402" value="" x="51.9176" y="28.1686" smashed="yes">
+<element name="C23" library="rcl" package="C0402" value="1uF" x="51.9176" y="28.1686" smashed="yes">
 <attribute name="NAME" x="51.2826" y="28.8036" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="51.2826" y="26.2636" size="1.27" layer="27"/>
 </element>
-<element name="C24" library="rcl" package="C0603" value="" x="52.0446" y="37.4396" smashed="yes">
+<element name="C24" library="rcl" package="C0603" value="4.7uF" x="52.0446" y="37.4396" smashed="yes">
 <attribute name="NAME" x="53.848" y="37.2618" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="51.4096" y="35.5346" size="1.27" layer="27"/>
 </element>
-<element name="L3" library="Pi3_motor_hat_rev1" package="IHLP2525EZER4R7M01-FOOT" value="" x="59.0296" y="30.4546" smashed="yes"/>
-<element name="R9" library="rcl" package="R0402" value="" x="46.0756" y="30.2006" smashed="yes" rot="R180">
+<element name="L3" library="Pi3_motor_hat_rev1" package="IHLP2525EZER4R7M01-FOOT" value="1.5uH" x="59.0296" y="30.4546" smashed="yes"/>
+<element name="R9" library="rcl" package="R0402" value="1M" x="46.0756" y="30.2006" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.0436" y="31.2674" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="46.7106" y="32.1056" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R10" library="rcl" package="R0402" value="" x="48.1076" y="26.7716" smashed="yes" rot="R90">
+<element name="R10" library="rcl" package="R0402" value="243k" x="48.1076" y="26.7716" smashed="yes" rot="R90">
 <attribute name="NAME" x="47.4726" y="26.1366" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="50.0126" y="26.1366" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R11" library="rcl" package="R0402" value="" x="49.6316" y="36.9316" smashed="yes" rot="R90">
+<element name="R11" library="rcl" package="R0402" value="18.2k" x="49.6316" y="36.9316" smashed="yes" rot="R90">
 <attribute name="NAME" x="50.6222" y="39.4462" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="51.5366" y="36.2966" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="U$3" library="Pi3_motor_hat_rev1" package="LT8640_FOOT" value="LT8640" x="50.7746" y="31.8516" smashed="yes" rot="R180">
 <attribute name="NAME" x="53.4416" y="33.1216" size="0.8128" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="R12" library="rcl" package="R0402" value="" x="46.0756" y="31.5976" smashed="yes" rot="R180">
+<element name="R12" library="rcl" package="R0402" value="10k" x="46.0756" y="31.5976" smashed="yes" rot="R180">
 <attribute name="NAME" x="47.3456" y="32.9438" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="46.7106" y="33.5026" size="1.27" layer="27" rot="R180"/>
 </element>
@@ -1920,21 +1920,21 @@ design rules under a new name.</description>
 <attribute name="NAME" x="43.8658" y="16.5862" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="46.4058" y="16.5862" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R18" library="rcl" package="R0402" value="330" x="44.5008" y="14.2748" smashed="yes" rot="R270">
+<element name="R18" library="rcl" package="R0402" value="500\" x="44.5008" y="14.2748" smashed="yes" rot="R270">
 <attribute name="NAME" x="45.1358" y="14.9098" size="0.8128" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="LED1" library="led" package="CHIP-LED0603" value="" x="27.4066" y="17.2212" smashed="yes">
 <attribute name="NAME" x="28.9814" y="16.0274" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="29.3116" y="16.5862" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R13" library="rcl" package="R0402" value="330" x="27.4066" y="14.2748" smashed="yes" rot="R270">
+<element name="R13" library="rcl" package="R0402" value="600" x="27.4066" y="14.2748" smashed="yes" rot="R270">
 <attribute name="NAME" x="28.0416" y="14.9098" size="0.8128" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="LED2" library="led" package="CHIP-LED0603" value="" x="25.6794" y="17.2212" smashed="yes">
 <attribute name="NAME" x="25.019" y="16.002" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="27.5844" y="16.5862" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R14" library="rcl" package="R0402" value="330" x="25.6794" y="14.2748" smashed="yes" rot="R270">
+<element name="R14" library="rcl" package="R0402" value="1.2k" x="25.6794" y="14.2748" smashed="yes" rot="R270">
 <attribute name="NAME" x="24.2062" y="15.0622" size="0.8128" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="LED3" library="led" package="CHIP-LED0603" value="" x="2.413" y="29.8704" rot="R90"/>

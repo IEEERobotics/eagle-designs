@@ -10907,57 +10907,57 @@ Source: www.kingbright.com</description>
 </classes>
 <parts>
 <part name="X1" library="Pi3_Power_hat_Rev1" deviceset="RASPI_BOARD_B+#" device="_E4P" value="RASPI_BOARD_B+#_E4P"/>
-<part name="L1" library="Pi3_motor_hat_rev1" deviceset="L-US" device="IHLP2525EZER4R7M01"/>
+<part name="L1" library="Pi3_motor_hat_rev1" deviceset="L-US" device="IHLP2525EZER4R7M01" value="4.7uH"/>
 <part name="U$1" library="Pi3_motor_hat_rev1" deviceset="LT8640" device=""/>
-<part name="C1" library="rcl" deviceset="C-US" device="C0402"/>
-<part name="C2" library="rcl" deviceset="C-US" device="C0402"/>
-<part name="R1" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R2" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="C3" library="rcl" deviceset="C-US" device="C0402"/>
-<part name="C4" library="rcl" deviceset="C-US" device="C1210"/>
-<part name="R3" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="C5" library="rcl" deviceset="C-US" device="C0402"/>
-<part name="C6" library="rcl" deviceset="C-US" device="C0402"/>
-<part name="C7" library="rcl" deviceset="C-US" device="C0402"/>
+<part name="C1" library="rcl" deviceset="C-US" device="C0402" value=".1uF"/>
+<part name="C2" library="rcl" deviceset="C-US" device="C0402" value="4.7pF"/>
+<part name="R1" library="rcl" deviceset="R-US_" device="R0402" value="1M"/>
+<part name="R2" library="rcl" deviceset="R-US_" device="R0402" value="88.7k"/>
+<part name="C3" library="rcl" deviceset="C-US" device="C0402" value="1uF"/>
+<part name="C4" library="rcl" deviceset="C-US" device="C1210" value="47uF"/>
+<part name="R3" library="rcl" deviceset="R-US_" device="R0402" value="41.2K"/>
+<part name="C5" library="rcl" deviceset="C-US" device="C0402" value="1uF"/>
+<part name="C6" library="rcl" deviceset="C-US" device="C0402" value="10nF"/>
+<part name="C7" library="rcl" deviceset="C-US" device="C0402" value="1uF"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="C8" library="rcl" deviceset="C-US" device="C0603"/>
-<part name="R4" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="L2" library="Pi3_motor_hat_rev1" deviceset="L-US" device="IHLP2525EZER4R7M01"/>
+<part name="C8" library="rcl" deviceset="C-US" device="C0603" value="4.7uF"/>
+<part name="R4" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
+<part name="L2" library="Pi3_motor_hat_rev1" deviceset="L-US" device="IHLP2525EZER4R7M01" value="1.5uH"/>
 <part name="U$2" library="Pi3_motor_hat_rev1" deviceset="LT8640" device=""/>
-<part name="C9" library="rcl" deviceset="C-US" device="C0402"/>
-<part name="C10" library="rcl" deviceset="C-US" device="C0402"/>
-<part name="R5" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R6" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="C11" library="rcl" deviceset="C-US" device="C0402"/>
-<part name="C12" library="rcl" deviceset="C-US" device="C1210"/>
-<part name="R7" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="C13" library="rcl" deviceset="C-US" device="C0402"/>
-<part name="C14" library="rcl" deviceset="C-US" device="C0402"/>
-<part name="C15" library="rcl" deviceset="C-US" device="C0402"/>
+<part name="C9" library="rcl" deviceset="C-US" device="C0402" value=".1uF"/>
+<part name="C10" library="rcl" deviceset="C-US" device="C0402" value="4.7pF"/>
+<part name="R5" library="rcl" deviceset="R-US_" device="R0402" value="1M"/>
+<part name="R6" library="rcl" deviceset="R-US_" device="R0402" value="200k"/>
+<part name="C11" library="rcl" deviceset="C-US" device="C0402" value="1uF"/>
+<part name="C12" library="rcl" deviceset="C-US" device="C1210" value="47uF"/>
+<part name="R7" library="rcl" deviceset="R-US_" device="R0402" value="18.2k"/>
+<part name="C13" library="rcl" deviceset="C-US" device="C0402" value="1uF"/>
+<part name="C14" library="rcl" deviceset="C-US" device="C0402" value="10nF"/>
+<part name="C15" library="rcl" deviceset="C-US" device="C0402" value="1uF"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="C16" library="rcl" deviceset="C-US" device="C0603"/>
-<part name="R8" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="L3" library="Pi3_motor_hat_rev1" deviceset="L-US" device="IHLP2525EZER4R7M01"/>
+<part name="C16" library="rcl" deviceset="C-US" device="C0603" value="4.7uF"/>
+<part name="R8" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
+<part name="L3" library="Pi3_motor_hat_rev1" deviceset="L-US" device="IHLP2525EZER4R7M01" value="1.5uH"/>
 <part name="U$3" library="Pi3_motor_hat_rev1" deviceset="LT8640" device=""/>
-<part name="C17" library="rcl" deviceset="C-US" device="C0402"/>
-<part name="C18" library="rcl" deviceset="C-US" device="C0402"/>
-<part name="R9" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R10" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="C19" library="rcl" deviceset="C-US" device="C0402"/>
-<part name="C20" library="rcl" deviceset="C-US" device="C1210"/>
-<part name="R11" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="C21" library="rcl" deviceset="C-US" device="C0402"/>
-<part name="C22" library="rcl" deviceset="C-US" device="C0402"/>
-<part name="C23" library="rcl" deviceset="C-US" device="C0402"/>
+<part name="C17" library="rcl" deviceset="C-US" device="C0402" value=".1uF"/>
+<part name="C18" library="rcl" deviceset="C-US" device="C0402" value="4.7pF"/>
+<part name="R9" library="rcl" deviceset="R-US_" device="R0402" value="1M"/>
+<part name="R10" library="rcl" deviceset="R-US_" device="R0402" value="243k"/>
+<part name="C19" library="rcl" deviceset="C-US" device="C0402" value="1uF"/>
+<part name="C20" library="rcl" deviceset="C-US" device="C1210" value="47uF"/>
+<part name="R11" library="rcl" deviceset="R-US_" device="R0402" value="18.2k"/>
+<part name="C21" library="rcl" deviceset="C-US" device="C0402" value="1uF"/>
+<part name="C22" library="rcl" deviceset="C-US" device="C0402" value="10nF"/>
+<part name="C23" library="rcl" deviceset="C-US" device="C0402" value="1uF"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="C24" library="rcl" deviceset="C-US" device="C0603"/>
-<part name="R12" library="rcl" deviceset="R-US_" device="R0402"/>
+<part name="C24" library="rcl" deviceset="C-US" device="C0603" value="4.7uF"/>
+<part name="R12" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="PL12" library="con-molex-2" deviceset="555X-2" device="H"/>
@@ -10974,11 +10974,11 @@ Source: www.kingbright.com</description>
 <part name="J8" library="con-molex" deviceset="22-?-02" device="05-7028"/>
 <part name="J9" library="con-molex" deviceset="22-?-02" device="05-7028"/>
 <part name="LED14" library="led" deviceset="LED" device="CHIP-LED0603"/>
-<part name="R18" library="rcl" deviceset="R-US_" device="R0402" value="330"/>
+<part name="R18" library="rcl" deviceset="R-US_" device="R0402" value="500\"/>
 <part name="LED1" library="led" deviceset="LED" device="CHIP-LED0603"/>
-<part name="R13" library="rcl" deviceset="R-US_" device="R0402" value="330"/>
+<part name="R13" library="rcl" deviceset="R-US_" device="R0402" value="600"/>
 <part name="LED2" library="led" deviceset="LED" device="CHIP-LED0603"/>
-<part name="R14" library="rcl" deviceset="R-US_" device="R0402" value="330"/>
+<part name="R14" library="rcl" deviceset="R-US_" device="R0402" value="1.2k"/>
 <part name="LED3" library="led" deviceset="LED" device="CHIP-LED0603"/>
 <part name="R15" library="rcl" deviceset="R-US_" device="R0402" value="330"/>
 </parts>
