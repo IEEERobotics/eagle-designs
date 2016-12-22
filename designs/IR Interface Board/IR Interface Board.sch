@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -15097,14 +15097,14 @@ with Current Source and Sink Capability</description>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="LED2" library="interface_board-rev13" deviceset="LED" device="SML0603"/>
 <part name="LED3" library="interface_board-rev13" deviceset="LED" device="SML0603"/>
-<part name="R6" library="rcl" deviceset="R-US_" device="R1206" value="10K"/>
-<part name="R7" library="rcl" deviceset="R-US_" device="R1206" value="10K"/>
+<part name="R6" library="rcl" deviceset="R-US_" device="R1206" value="500"/>
+<part name="R7" library="rcl" deviceset="R-US_" device="R1206" value="500"/>
 <part name="C5" library="rcl" deviceset="C-US" device="C0805" value="0.1uF"/>
 <part name="C6" library="rcl" deviceset="C-US" device="C0805" value="0.1uF"/>
 <part name="C19" library="rcl" deviceset="C-US" device="C0805" value="0.1uF"/>
 <part name="C20" library="rcl" deviceset="C-US" device="C0805" value="0.1uF"/>
 <part name="LED4" library="interface_board-rev13" deviceset="LED" device="SML0603"/>
-<part name="R21" library="rcl" deviceset="R-US_" device="R1206" value="10K"/>
+<part name="R21" library="rcl" deviceset="R-US_" device="R1206" value="500"/>
 <part name="JP11" library="pinhead" deviceset="PINHD-1X6" device="/90"/>
 <part name="R9" library="rcl" deviceset="R-US_" device="R1206" value="100"/>
 <part name="C7" library="rcl" deviceset="C-US" device="C0805" value="0.1uF"/>
@@ -15114,11 +15114,11 @@ with Current Source and Sink Capability</description>
 <part name="TOUCH_RESET" library="power_lib" deviceset="MC32882_SW" device="" value="RESET"/>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
 <part name="LED6" library="interface_board-rev13" deviceset="LED" device="SML0603"/>
-<part name="R13" library="rcl" deviceset="R-US_" device="R1206" value="10K"/>
+<part name="R13" library="rcl" deviceset="R-US_" device="R1206" value="500"/>
 <part name="LED8" library="interface_board-rev13" deviceset="LED" device="SML0603"/>
-<part name="R15" library="rcl" deviceset="R-US_" device="R1206" value="10K"/>
+<part name="R15" library="rcl" deviceset="R-US_" device="R1206" value="500"/>
 <part name="LED9" library="interface_board-rev13" deviceset="LED" device="SML0603"/>
-<part name="R16" library="rcl" deviceset="R-US_" device="R1206" value="10K"/>
+<part name="R16" library="rcl" deviceset="R-US_" device="R1206" value="500"/>
 <part name="FRAME3" library="frames" deviceset="FRAME_A_L" device=""/>
 <part name="OUT0" library="pinhead" deviceset="PINHD-1X4" device=""/>
 <part name="OUT1" library="pinhead" deviceset="PINHD-1X4" device=""/>
@@ -15146,7 +15146,7 @@ with Current Source and Sink Capability</description>
 <part name="C2" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="RST_JMPR1" library="con-lstb" deviceset="MA03-1" device=""/>
 <part name="R1" library="resistor" deviceset="R-US_" device="R0805" value="1k"/>
-<part name="R2" library="resistor" deviceset="R-US_" device="R0805" value="330"/>
+<part name="R2" library="resistor" deviceset="R-US_" device="R0805" value="500"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="C8" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="C9" library="resistor" deviceset="C-EU" device="C0805" value="4.7uF"/>
@@ -15157,7 +15157,7 @@ with Current Source and Sink Capability</description>
 <part name="C10" library="rcl" deviceset="C-US" device="C0805" value="1 uF"/>
 <part name="C11" library="rcl" deviceset="C-US" device="C0805" value="4.7 uF"/>
 <part name="LED1" library="interface_board-rev13" deviceset="LED" device="SML0603"/>
-<part name="R3" library="rcl" deviceset="R-US_" device="R1206" value="10K"/>
+<part name="R3" library="rcl" deviceset="R-US_" device="R1206" value="500"/>
 <part name="OUT20" library="pinhead" deviceset="PINHD-1X4" device=""/>
 <part name="OUT21" library="pinhead" deviceset="PINHD-1X4" device=""/>
 <part name="OUT22" library="pinhead" deviceset="PINHD-1X4" device=""/>
