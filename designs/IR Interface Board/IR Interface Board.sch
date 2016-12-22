@@ -16181,6 +16181,16 @@ with Current Source and Sink Capability</description>
 <wire x1="243.84" y1="109.22" x2="243.84" y2="114.3" width="0.1524" layer="91"/>
 <label x="243.84" y="114.3" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="BT_USB_MICROB1" gate="G$1" pin="VBUS"/>
+<wire x1="21.59" y1="66.04" x2="26.67" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="26.67" y1="66.04" x2="26.67" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="BT_FTDI1" gate="G$1" pin="VBUS"/>
+<wire x1="55.88" y1="83.82" x2="26.67" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="26.67" y1="60.96" x2="26.67" y2="66.04" width="0.1524" layer="91"/>
+<junction x="26.67" y="66.04"/>
+</segment>
 </net>
 <net name="ADC_20" class="0">
 <segment>
@@ -16527,18 +16537,6 @@ with Current Source and Sink Capability</description>
 <wire x1="53.34" y1="73.66" x2="53.34" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="BT_USB_MICROB1" gate="G$1" pin="D+"/>
 <wire x1="53.34" y1="71.12" x2="21.59" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="BT_VBUS1" class="0">
-<segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="BT_USB_MICROB1" gate="G$1" pin="VBUS"/>
-<wire x1="21.59" y1="66.04" x2="26.67" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="26.67" y1="66.04" x2="26.67" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="BT_FTDI1" gate="G$1" pin="VBUS"/>
-<wire x1="55.88" y1="83.82" x2="26.67" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="26.67" y1="60.96" x2="26.67" y2="66.04" width="0.1524" layer="91"/>
-<junction x="26.67" y="66.04"/>
 </segment>
 </net>
 <net name="NC_1_FTDI" class="0">
