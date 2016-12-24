@@ -11268,6 +11268,12 @@ Source: www.kingbright.com</description>
 <wire x1="195.58" y1="17.78" x2="195.58" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="EN/UV"/>
+<wire x1="73.66" y1="60.96" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
