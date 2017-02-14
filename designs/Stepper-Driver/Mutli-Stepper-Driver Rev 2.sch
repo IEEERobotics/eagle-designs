@@ -23859,10 +23859,6 @@ For boards designed to be plugged directly into a USB slot. If possible, ensure 
 <part name="C25" library="rcl" deviceset="C-US" device="C0805"/>
 <part name="VDD6" library="supply1" deviceset="VDD" device=""/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
-<part name="J10" library="MotherboardRev2" deviceset="SON_OF_DARK_POWERSCH_22-?-02" device="05-7028"/>
-<part name="R31" library="rcl" deviceset="R-US_" device="R0805"/>
-<part name="R32" library="rcl" deviceset="R-US_" device="R0805"/>
-<part name="VDD7" library="supply1" deviceset="VDD" device=""/>
 <part name="R33" library="rcl" deviceset="R-US_" device="R0805"/>
 <part name="LED1" library="led" deviceset="LED" device="CHIPLED_0805"/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
@@ -23974,11 +23970,6 @@ For boards designed to be plugged directly into a USB slot. If possible, ensure 
 <instance part="C25" gate="G$1" x="119.38" y="48.26"/>
 <instance part="VDD6" gate="G$1" x="119.38" y="76.2"/>
 <instance part="GND29" gate="1" x="129.54" y="22.86"/>
-<instance part="J10" gate="-1" x="81.28" y="218.44"/>
-<instance part="J10" gate="-2" x="81.28" y="210.82"/>
-<instance part="R31" gate="G$1" x="27.94" y="231.14" rot="R90"/>
-<instance part="R32" gate="G$1" x="15.24" y="231.14" rot="R90"/>
-<instance part="VDD7" gate="G$1" x="22.86" y="248.92"/>
 <instance part="R33" gate="G$1" x="170.18" y="157.48" rot="R90"/>
 <instance part="LED1" gate="G$1" x="170.18" y="147.32"/>
 <instance part="GND30" gate="1" x="170.18" y="137.16"/>
@@ -24431,15 +24422,6 @@ For boards designed to be plugged directly into a USB slot. If possible, ensure 
 <label x="165.1" y="241.3" size="1.6764" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="SDA" class="0">
-<segment>
-<pinref part="J10" gate="-2" pin="S"/>
-<wire x1="78.74" y1="210.82" x2="15.24" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="R32" gate="G$1" pin="1"/>
-<wire x1="15.24" y1="226.06" x2="15.24" y2="210.82" width="0.1524" layer="91"/>
-<label x="15.24" y="210.82" size="1.6764" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="PGD1" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="RA2/AN2/C2INB/C1IND/C3INB/VREF-/CVREF"/>
@@ -24474,15 +24456,6 @@ For boards designed to be plugged directly into a USB slot. If possible, ensure 
 <pinref part="R29" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="53.34" x2="91.44" y2="53.34" width="0.1524" layer="91"/>
 <label x="91.44" y="53.34" size="1.6764" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="SCL" class="0">
-<segment>
-<pinref part="J10" gate="-1" pin="S"/>
-<wire x1="78.74" y1="218.44" x2="27.94" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="R31" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="226.06" x2="27.94" y2="218.44" width="0.1524" layer="91"/>
-<label x="27.94" y="218.44" size="1.6764" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$37" class="0">
@@ -24566,17 +24539,6 @@ For boards designed to be plugged directly into a USB slot. If possible, ensure 
 <pinref part="R30" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="66.04" x2="119.38" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="VDD6" gate="G$1" pin="VDD"/>
-</segment>
-<segment>
-<pinref part="R32" gate="G$1" pin="2"/>
-<wire x1="15.24" y1="236.22" x2="15.24" y2="243.84" width="0.1524" layer="91"/>
-<pinref part="R31" gate="G$1" pin="2"/>
-<wire x1="15.24" y1="243.84" x2="22.86" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="243.84" x2="27.94" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="243.84" x2="27.94" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="243.84" x2="22.86" y2="246.38" width="0.1524" layer="91"/>
-<junction x="22.86" y="243.84"/>
-<pinref part="VDD7" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
 <pinref part="C31" gate="G$1" pin="1"/>
